@@ -1,0 +1,8 @@
+@import '../../scss/abstracts/mixins.scss';
+@import '../../scss/abstracts/variables.scss';
+
+.main-navigation__list__item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

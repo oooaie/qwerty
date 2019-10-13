@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web&display=swap');
+@import './scss/abstracts/mixins.scss';
+@import './scss/abstracts/variables.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+
+  font-size: 1.6rem;
+  font-family: 'Istok Web', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  @include full-size();
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}

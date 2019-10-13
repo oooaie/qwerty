@@ -1,0 +1,19 @@
+@import '../../scss/abstracts/mixins.scss';
+@import '../../scss/abstracts/variables.scss';
+
+.basket-toggle {
+  @include full-size();
+
+  &__button {
+    @include full-size();
+    font-size: $basket-toggle-font-size;
+    letter-spacing: 0.15rem;
+
+    color: $basket-toggle-font-color;
+    transition: $basket-toggle-transition;
+
+    &:hover {
+      background-color: $basket-toggle-hover-color;
+    }
+  }
+}

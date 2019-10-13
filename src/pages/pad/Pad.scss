@@ -1,0 +1,9 @@
+@import '../../scss/abstracts/mixins.scss';
+@import '../../scss/abstracts/variables.scss';
+
+.pad {
+  @include full-size();
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

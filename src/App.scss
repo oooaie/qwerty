@@ -1,0 +1,21 @@
+@import './scss/abstracts/mixins.scss';
+@import './scss/abstracts/variables.scss';
+
+.app {
+  display: flex;
+  @include full-size();
+
+  overflow: hidden;
+}
+
+.main-navigation {
+  height: 100%;
+  min-width: $main-navigation-min-width;
+  width: $main-navigation-width;
+
+  background: $main-navigation-color;
+}
+
+.main {
+  @include full-size();
+}

@@ -1,0 +1,9 @@
+@import '../../scss/abstracts/mixins.scss';
+@import '../../scss/abstracts/variables.scss';
+
+.border {
+  width: 100%;
+  min-height: $border-height;
+
+  background-color: $border-color;
+}

@@ -1,0 +1,11 @@
+@import '../../scss/abstracts/mixins.scss';
+@import '../../scss/abstracts/variables.scss';
+
+.main-navigation__list__button {
+  display: block;
+  height: $main-navigation-button-height;
+  width: $main-navigation-button-width;
+
+  background-color: $main-navigation-button-color;
+  border-radius: 50%;
+}

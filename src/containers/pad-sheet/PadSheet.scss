@@ -1,0 +1,18 @@
+@import '../../scss/abstracts/mixins.scss';
+@import '../../scss/abstracts/variables.scss';
+
+.pad__sheet {
+  @include full-size();
+  padding: $pad-sheet-padding;
+  font-size: $pad-sheet-font-size;
+  overflow-y: scroll;
+  outline: none;
+  white-space: pre-line;
+  word-break: break-word;
+
+  // -ms-overflow-style: none;
+  // scrollbar-width: none;
+  // &::-webkit-scrollbar {
+  //   display: none;
+  // }
+}
